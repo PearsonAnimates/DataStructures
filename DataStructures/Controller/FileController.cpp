@@ -26,8 +26,11 @@ vector<CrimeData> FileController :: readCrimeDataToVector(string filename)
             //Exclude header row
             if(rowCount != 0)
             {
-                CrimeData row(currentCSVLine);
-                crimeVector.push_back(row);
+                if(currentCSVLine.length() != 0)
+                {
+                    CrimeData row(currentCSVLine);
+                    crimeVector.push_back(row);
+                }
             }
             rowCount++;
         }

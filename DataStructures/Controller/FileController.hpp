@@ -9,12 +9,13 @@
 #ifndef FileController_hpp
 #define FileController_hpp
 
-#include "../Data/CrimeData.hpp"
 #include <string>
 #include <fstream>
 #include <iostream>
 #include <vector>
 #include <sstream>
+
+#include "../Data/CrimeData.hpp"
 
 using namespace std;
 
