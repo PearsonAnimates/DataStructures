@@ -6,10 +6,11 @@
 //  Copyright © 2018 Amaya Penunuri, Yael. All rights reserved.
 //
 
-#include <iostream>
+#include "Controller/Controller.hpp"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main()
+{
+    Controller app;
+    app.start();
     return 0;
 }
