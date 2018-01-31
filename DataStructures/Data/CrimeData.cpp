@@ -334,3 +334,4 @@ bool CrimeData :: operator == (const CrimeData & compared)
     
     return isThisTheSame;
 }
+

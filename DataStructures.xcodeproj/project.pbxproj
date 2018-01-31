@@ -11,6 +11,7 @@
 		72CB255D2022444400C2AC62 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72CB255B2022444400C2AC62 /* Controller.cpp */; };
 		72CB25612022476E00C2AC62 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72CB255F2022476E00C2AC62 /* Timer.cpp */; };
 		72CB256420224DDC00C2AC62 /* FileController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72CB256220224DDC00C2AC62 /* FileController.cpp */; };
+		72CB256920225DFF00C2AC62 /* CrimeData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72CB25672022510B00C2AC62 /* CrimeData.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -165,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				72CB25612022476E00C2AC62 /* Timer.cpp in Sources */,
+				72CB256920225DFF00C2AC62 /* CrimeData.cpp in Sources */,
 				72CB25542022438F00C2AC62 /* Runner.cpp in Sources */,
 				72CB255D2022444400C2AC62 /* Controller.cpp in Sources */,
 				72CB256420224DDC00C2AC62 /* FileController.cpp in Sources */,
