@@ -90,10 +90,10 @@
 		72CB25522022438F00C2AC62 /* DataStructures */ = {
 			isa = PBXGroup;
 			children = (
-				7271DE122024F4D300CD331F /* Model */,
 				72CB25532022438F00C2AC62 /* Runner.cpp */,
-				72CB2565202250AA00C2AC62 /* Data */,
 				72CB255A202243F000C2AC62 /* Controller */,
+				7271DE122024F4D300CD331F /* Model */,
+				72CB2565202250AA00C2AC62 /* Data */,
 			);
 			path = DataStructures;
 			sourceTree = "<group>";
