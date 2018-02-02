@@ -47,5 +47,10 @@ void Controller :: findMaxAndMin()
 
 void Controller :: testArray()
 {
+    Array<int> yaelArray(45);
     
+    yaelArray[0] = 123;
+    yaelArray.setAtIndex(0, 321);
+    
+    cout << yaelArray[0] << endl;
 }
