@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7271DE152024F4F600CD331F /* Array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7271DE132024F4F600CD331F /* Array.cpp */; };
 		72CB25542022438F00C2AC62 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72CB25532022438F00C2AC62 /* Runner.cpp */; };
 		72CB255D2022444400C2AC62 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72CB255B2022444400C2AC62 /* Controller.cpp */; };
 		72CB25612022476E00C2AC62 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72CB255F2022476E00C2AC62 /* Timer.cpp */; };
@@ -27,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7271DE132024F4F600CD331F /* Array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Array.cpp; sourceTree = "<group>"; };
+		7271DE142024F4F600CD331F /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
 		72CB25502022438F00C2AC62 /* DataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
 		72CB25532022438F00C2AC62 /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
 		72CB255B2022444400C2AC62 /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
@@ -51,6 +54,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7271DE122024F4D300CD331F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7271DE162024F53000CD331F /* Structures */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7271DE162024F53000CD331F /* Structures */ = {
+			isa = PBXGroup;
+			children = (
+				7271DE132024F4F600CD331F /* Array.cpp */,
+				7271DE142024F4F600CD331F /* Array.hpp */,
+			);
+			path = Structures;
+			sourceTree = "<group>";
+		};
 		72CB25472022438F00C2AC62 = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +90,7 @@
 		72CB25522022438F00C2AC62 /* DataStructures */ = {
 			isa = PBXGroup;
 			children = (
+				7271DE122024F4D300CD331F /* Model */,
 				72CB25532022438F00C2AC62 /* Runner.cpp */,
 				72CB2565202250AA00C2AC62 /* Data */,
 				72CB255A202243F000C2AC62 /* Controller */,
@@ -170,6 +191,7 @@
 				72CB25542022438F00C2AC62 /* Runner.cpp in Sources */,
 				72CB255D2022444400C2AC62 /* Controller.cpp in Sources */,
 				72CB256420224DDC00C2AC62 /* FileController.cpp in Sources */,
+				7271DE152024F4F600CD331F /* Array.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
