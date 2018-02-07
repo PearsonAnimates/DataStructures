@@ -50,7 +50,7 @@ Array<Type> :: Array(int size)
 }
 
 template <class Type>
-Array<Type> :: Array(const Array<Type> & toCopy)
+Array<Type> :: Array(const Array<Type> &toCopy)
 {
     this->size = toCopy.getSize();
     

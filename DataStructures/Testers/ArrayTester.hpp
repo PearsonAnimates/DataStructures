@@ -14,11 +14,12 @@
 #include "../Controller/FileController.hpp"
 #include "../Controller/Tools/Timer.hpp"
 
-class Arrayster
+class ArrayTester
 {
 public:
     void testArrayUse();
     void testAdvancedCopy();
+    void testAdvancedArray();
 };
 
 #endif /* ArrayTester_hpp */
