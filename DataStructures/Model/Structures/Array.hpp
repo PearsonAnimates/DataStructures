@@ -45,7 +45,7 @@ Array<Type> :: Array(int size)
 {
     assert(size > 0);
     this->size = size;
-    
+
     internalArray = new Type[size];
 }
 

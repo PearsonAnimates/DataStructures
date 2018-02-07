@@ -12,13 +12,13 @@ using namespace std;
 
 void Controller :: start()
 {
-    ArrayTester myTest;
-    myTest.testArrayUser();
-    myTest.testAdvancedArray();
+//    ArrayTester myTest;
+//    myTest.testArrayUser();
+//    myTest.testAdvancedArray();
     
-//    findMaxAndMin();
-//
-//    testArray();
+    findMaxAndMin();
+
+    testArray();
 }
 
 void Controller :: findMaxAndMin()

@@ -10,7 +10,7 @@
 
 CrimeData :: CrimeData()
 {
-    //Broken apparently
+    //nothing
 }
 
 CrimeData :: CrimeData(string currentCSVLine)
