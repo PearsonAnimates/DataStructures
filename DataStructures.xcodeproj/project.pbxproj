@@ -30,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		7238FFF6202CD39D0004E333 /* LinearNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinearNode.cpp; sourceTree = "<group>"; };
+		7238FFF9202CE3F50004E333 /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
 		72456B2A202A33A500104D1C /* ArrayTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArrayTester.cpp; sourceTree = "<group>"; };
 		72456B2B202A33A500104D1C /* ArrayTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArrayTester.hpp; sourceTree = "<group>"; };
 		72615806202B7E3700B97E1A /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
@@ -58,6 +59,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7238FFFB202CEF1F0004E333 /* SeparateItems */ = {
+			isa = PBXGroup;
+			children = (
+				7238FFFC202CEF2B0004E333 /* Images */,
+			);
+			path = SeparateItems;
+			sourceTree = "<group>";
+		};
+		7238FFFC202CEF2B0004E333 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		72456B29202A339200104D1C /* Testers */ = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				7271DE142024F4F600CD331F /* Array.hpp */,
+				7238FFF9202CE3F50004E333 /* List.hpp */,
 			);
 			path = Structures;
 			sourceTree = "<group>";
@@ -96,6 +113,7 @@
 		72CB25472022438F00C2AC62 = {
 			isa = PBXGroup;
 			children = (
+				7238FFFB202CEF1F0004E333 /* SeparateItems */,
 				72CB25522022438F00C2AC62 /* DataStructures */,
 				72CB25512022438F00C2AC62 /* Products */,
 			);
