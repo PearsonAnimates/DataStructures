@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7238FFF7202CD39D0004E333 /* LinearNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7238FFF6202CD39D0004E333 /* LinearNode.cpp */; };
 		72456B2C202A33A500104D1C /* ArrayTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72456B2A202A33A500104D1C /* ArrayTester.cpp */; };
 		72CB25542022438F00C2AC62 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72CB25532022438F00C2AC62 /* Runner.cpp */; };
 		72CB255D2022444400C2AC62 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72CB255B2022444400C2AC62 /* Controller.cpp */; };
@@ -28,6 +29,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7238FFF6202CD39D0004E333 /* LinearNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinearNode.cpp; sourceTree = "<group>"; };
 		72456B2A202A33A500104D1C /* ArrayTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArrayTester.cpp; sourceTree = "<group>"; };
 		72456B2B202A33A500104D1C /* ArrayTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArrayTester.hpp; sourceTree = "<group>"; };
 		72615806202B7E3700B97E1A /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				72615806202B7E3700B97E1A /* Node.hpp */,
+				7238FFF6202CD39D0004E333 /* LinearNode.cpp */,
 			);
 			path = Nodes;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 				72CB255D2022444400C2AC62 /* Controller.cpp in Sources */,
 				72456B2C202A33A500104D1C /* ArrayTester.cpp in Sources */,
 				72CB256420224DDC00C2AC62 /* FileController.cpp in Sources */,
+				7238FFF7202CD39D0004E333 /* LinearNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
