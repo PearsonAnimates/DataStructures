@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7202CCA4203609DA002623EB /* LinkedList.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 7202CCA3203609DA002623EB /* LinkedList.hpp */; };
+		721B453D203CAF37006812A4 /* LinkedListTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 721B453B203CAF37006812A4 /* LinkedListTester.cpp */; };
 		7238FFF7202CD39D0004E333 /* LinearNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7238FFF6202CD39D0004E333 /* LinearNode.cpp */; };
 		72456B2C202A33A500104D1C /* ArrayTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72456B2A202A33A500104D1C /* ArrayTester.cpp */; };
 		72CB25542022438F00C2AC62 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72CB25532022438F00C2AC62 /* Runner.cpp */; };
@@ -31,6 +32,8 @@
 
 /* Begin PBXFileReference section */
 		7202CCA3203609DA002623EB /* LinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
+		721B453B203CAF37006812A4 /* LinkedListTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedListTester.cpp; sourceTree = "<group>"; };
+		721B453C203CAF37006812A4 /* LinkedListTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedListTester.hpp; sourceTree = "<group>"; };
 		7238FFF6202CD39D0004E333 /* LinearNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinearNode.cpp; sourceTree = "<group>"; };
 		7238FFF9202CE3F50004E333 /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
 		72456B2A202A33A500104D1C /* ArrayTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArrayTester.cpp; sourceTree = "<group>"; };
@@ -81,6 +84,8 @@
 			children = (
 				72456B2A202A33A500104D1C /* ArrayTester.cpp */,
 				72456B2B202A33A500104D1C /* ArrayTester.hpp */,
+				721B453B203CAF37006812A4 /* LinkedListTester.cpp */,
+				721B453C203CAF37006812A4 /* LinkedListTester.hpp */,
 			);
 			path = Testers;
 			sourceTree = "<group>";
@@ -236,6 +241,7 @@
 				72CB25542022438F00C2AC62 /* Runner.cpp in Sources */,
 				72CB255D2022444400C2AC62 /* Controller.cpp in Sources */,
 				72456B2C202A33A500104D1C /* ArrayTester.cpp in Sources */,
+				721B453D203CAF37006812A4 /* LinkedListTester.cpp in Sources */,
 				72CB256420224DDC00C2AC62 /* FileController.cpp in Sources */,
 				7238FFF7202CD39D0004E333 /* LinearNode.cpp in Sources */,
 			);
