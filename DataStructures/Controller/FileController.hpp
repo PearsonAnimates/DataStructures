@@ -51,7 +51,7 @@ LinkedList<CrimeData> FileController :: readDataToList(string fileName)
             }
             rowCount++;
         }
-        dataFile.close();;
+        dataFile.close();
     }
     else
     {
