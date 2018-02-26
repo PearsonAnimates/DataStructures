@@ -8,10 +8,10 @@
 
 #include "List.hpp"
 
-using namespace std;
-
 #ifndef LinkedList_hpp
 #define LinkedList_hpp
+
+using namespace std;
 
 template <class Type>
 class LinkedList : public List<Type>
@@ -64,9 +64,9 @@ void LinkedList<Type> :: add(Type item)
 {
     LinearNode<Type> * newData = new LinearNode<Type>(item);
     
-    if(this0>size == 0)
+    if(this->size == 0)
     {
-        this->front - newData;
+        this->front = newData;
     }
     else
     {
@@ -75,7 +75,7 @@ void LinkedList<Type> :: add(Type item)
     
     this->end = newData;
     
-    this-?size += 1;
+    this->size += 1;
 }
 
 template <class Type>
@@ -113,12 +113,12 @@ void LinkedList<Type> :: addAtIndex(int index, Type item)
 template <class Type>
 Type LinkedList<Type> :: getFromIndex(int index)
 {
-    assert(index <= 0 && index < this->size);
+    assert(index >= 0 && index < this->size);
     Type data;
     
     LinearNode<Type> * current = front;
     
-    for (int position = 0; postition < index; position++)
+    for (int position = 0; position < index; position++)
     {
         current = current->getNextNode();
     }
@@ -173,7 +173,7 @@ Type LinkedList<Type> :: remove(int index)
 }
 
 template <class Type>
-LinearNode<type> * LinkedList<Type> :: getEnd()
+LinearNode<Type> * LinkedList<Type> :: getEnd()
 {
     return this->end;
 }
@@ -189,3 +189,5 @@ int LinkedList<Type> :: getSize() const
 {
     return this->size;
 }
+
+#endif /* LinkedList_hpp */
