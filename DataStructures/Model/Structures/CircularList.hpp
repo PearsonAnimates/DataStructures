@@ -167,7 +167,7 @@ Type CircularList<Type> :: remove (int index)
   removedPrevious->setNext(removedNext);
   removedNext->setPrevious(removedPrevious);
   
-  Type valuse = removed->getData();
+  Type value = removed->getData();
   this->size--;
   delete removed;
   return value;
