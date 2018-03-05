@@ -12,13 +12,8 @@ using namespace std;
 
 void Controller :: start()
 {
-//    ArrayTester myTest;
-//    myTest.testArrayUser();
-//    myTest.testAdvancedArray();
-    
-    findMaxAndMin();
-
-    testArray();
+    RecursionTester test;
+    test.testRecursionString();
 }
 
 void Controller :: findMaxAndMin()
@@ -47,6 +42,11 @@ void Controller :: findMaxAndMin()
     cout << "The smallest Crime stat is at " << minIndex << " and it is: " << myData[minIndex] << endl;
     cout << "The biggest Crime stat is at " << maxIndex << " and it is: " << myData[maxIndex] << endl;
     searchTimer.displayInformation();
+}
+
+void Controller :: testStacksAndQueues()
+{
+    
 }
 
 void Controller :: testArray()

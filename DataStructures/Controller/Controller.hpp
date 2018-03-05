@@ -13,12 +13,17 @@
 #include <vector>
 #include "Tools/Timer.hpp"
 #include "FileController.hpp"
-#include "../Model/Structures/Array.hpp"
+#include "../Model/Structures/Linear/Array.hpp"
+#include "../Testers/ArrayTester.hpp"
+#include "../Testers/LinkedListTester.hpp"
+//#include "../Testers/TestStacksAndQueues.hpp"
+#include "../Testers/RecursionTester.hpp"
 
 class Controller
 {
 private:
     void testArray();
+    void testStacksAndQueues();
     void findMaxAndMin();
 public:
     void start();
