@@ -18,6 +18,7 @@
 #include "../Testers/LinkedListTester.hpp"
 //#include "../Testers/TestStacksAndQueues.hpp"
 #include "../Testers/RecursionTester.hpp"
+#include "../Testers/GraphTester.hpp"
 
 class Controller
 {
@@ -25,6 +26,7 @@ private:
     void testArray();
     void testStacksAndQueues();
     void findMaxAndMin();
+    void testGraphs();
 public:
     void start();
 };

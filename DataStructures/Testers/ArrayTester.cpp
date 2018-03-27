@@ -40,7 +40,7 @@ void ArrayTester :: testArrayUse()
 
 void ArrayTester :: testAdvancedArray()
 {
-vector<CrimeData> test = FileController :: readCrimeDataToVector("/Users/yama6920/CTEC Data Project Thingys/DataStructures/DataStructures/Data/crime.csv");
+    vector<CrimeData> test = FileController :: readCrimeDataToVector("/Users/yama6920/CTEC Data Project Thingys/DataStructures/DataStructures/Data/crime.csv");
     int arraySize = test.size();
     
     Array<CrimeData> data(arraySize);

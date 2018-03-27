@@ -9,6 +9,7 @@
 #ifndef Graph_hpp
 #define Graph_hpp
 
+#include <iostream>
 #include <set>
 #include <queue>
 #include <assert.h>
@@ -18,7 +19,7 @@ template <class Type>
 class Graph
 {
 private:
-    static const int MAXIMUM = 20;
+    static const int MAXIMUM = 50;
     bool adjacencyMatrix [MAXIMUM][MAXIMUM];
     int weightCostMatrix [MAXIMUM][MAXIMUM];
     Type graphData[MAXIMUM];
