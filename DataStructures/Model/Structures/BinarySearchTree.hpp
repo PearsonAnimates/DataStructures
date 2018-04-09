@@ -9,10 +9,10 @@
 #ifndef BinarySearchTree_hpp
 #define BinarySearchTree_hpp
 
-using namespace std;
-
-#include <iostream>
 #include "Tree.hpp"
+#include <iostream>
+
+using namespace std;
 
 template <class Type>
 class BinarySearchTree : public Tree<Type>
@@ -135,6 +135,12 @@ BinarySearchTree<Type> :: ~BinarySearchTree()
 {
     //temporarily empty
 }
+
+//template <class Type>
+//void BinarySearchTree<Type> :: insert(Type item)
+//{
+//    //temporarily empty
+//}
 
 template <class Type>
 bool BinarySearchTree<Type> :: contains(Type value)
