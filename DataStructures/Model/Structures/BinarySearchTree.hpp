@@ -113,9 +113,26 @@ void BinarySearchTree<Type> :: preOrderTraversal()
 }
 
 template <class Type>
+void BinarySearchTree<Type> :: inOrderTraversal()
+{
+    inOrderTraversal(this->root);
+}
+
+template <class Type>
 void BinarySearchTree<Type> :: postOrderTraversal()
 {
     postOrderTraversal(this->root);
+}
+
+template <class Type>
+void BinarySearchTree<Type> :: inOrderTraversal(BinaryTreeNode<Type> * currentNode)
+{
+    if(currentNode != nullptr)
+    {
+        inOrderTraversal(currentNode->getLeftNode());
+        cout << currentNode->getData() << endl;
+        inOrderTraversal(currentNode->geRightNode());
+    }
 }
 
 template <class Type>
