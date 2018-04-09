@@ -14,7 +14,7 @@ template <class Type>
 class Tree
 {
 protected:
-    BinaryTreeNode<Type * root;
+    BinaryTreeNode<Type> * root;
 public:
     virtual int getSize() = 0;
     virtual int getHeight() = 0;
@@ -28,6 +28,6 @@ public:
     virtual void inOrderTraversal() = 0;
     virtual void preOrderTraversal() = 0;
     virtual void postOrderTraversal() = 0;
-    };
+};
 
 #endif /* Tree_hpp */
