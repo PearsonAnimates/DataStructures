@@ -20,6 +20,7 @@
 		72CB256920225DFF00C2AC62 /* CrimeData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72CB25672022510B00C2AC62 /* CrimeData.cpp */; };
 		72D0C03C204DC6610014DDD1 /* RecursionTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72D0C03A204DC6610014DDD1 /* RecursionTester.cpp */; };
 		72F2F3FF206573C600F4C350 /* GraphTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72F2F3FD206573C600F4C350 /* GraphTester.cpp */; };
+		72F93E2A20866B6000B1ACCA /* AVLTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72F93E2820866B6000B1ACCA /* AVLTree.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -69,6 +70,8 @@
 		72D0C03B204DC6610014DDD1 /* RecursionTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RecursionTester.hpp; sourceTree = "<group>"; };
 		72F2F3FD206573C600F4C350 /* GraphTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GraphTester.cpp; sourceTree = "<group>"; };
 		72F2F3FE206573C600F4C350 /* GraphTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GraphTester.hpp; sourceTree = "<group>"; };
+		72F93E2820866B6000B1ACCA /* AVLTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AVLTree.cpp; sourceTree = "<group>"; };
+		72F93E2920866B6000B1ACCA /* AVLTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AVLTree.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 			children = (
 				725CC11420603675009E3E71 /* Graph.hpp */,
 				7249374E206AD4180088EAF9 /* Tree.hpp */,
+				72F93E2820866B6000B1ACCA /* AVLTree.cpp */,
+				72F93E2920866B6000B1ACCA /* AVLTree.hpp */,
 			);
 			path = NonLinear;
 			sourceTree = "<group>";
@@ -284,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				72CB25612022476E00C2AC62 /* Timer.cpp in Sources */,
+				72F93E2A20866B6000B1ACCA /* AVLTree.cpp in Sources */,
 				7249374C206ACA3F0088EAF9 /* BinaryTreeTester.cpp in Sources */,
 				72D0C03C204DC6610014DDD1 /* RecursionTester.cpp in Sources */,
 				72CB256920225DFF00C2AC62 /* CrimeData.cpp in Sources */,
