@@ -13,6 +13,7 @@
 		7238FFF7202CD39D0004E333 /* LinearNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7238FFF6202CD39D0004E333 /* LinearNode.cpp */; };
 		72456B2C202A33A500104D1C /* ArrayTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72456B2A202A33A500104D1C /* ArrayTester.cpp */; };
 		7249374C206ACA3F0088EAF9 /* BinaryTreeTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7249374A206ACA3F0088EAF9 /* BinaryTreeTester.cpp */; };
+		72C479B8208E50FC003204B5 /* N_AryTreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72C479B6208E50FC003204B5 /* N_AryTreeNode.cpp */; };
 		72CB25542022438F00C2AC62 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72CB25532022438F00C2AC62 /* Runner.cpp */; };
 		72CB255D2022444400C2AC62 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72CB255B2022444400C2AC62 /* Controller.cpp */; };
 		72CB25612022476E00C2AC62 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72CB255F2022476E00C2AC62 /* Timer.cpp */; };
@@ -55,6 +56,8 @@
 		72615806202B7E3700B97E1A /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
 		7271DE142024F4F600CD331F /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
 		7272423D206D61E5007986C3 /* BinarySearchTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinarySearchTree.hpp; sourceTree = "<group>"; };
+		72C479B6208E50FC003204B5 /* N_AryTreeNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = N_AryTreeNode.cpp; sourceTree = "<group>"; };
+		72C479B7208E50FC003204B5 /* N_AryTreeNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = N_AryTreeNode.hpp; sourceTree = "<group>"; };
 		72CB25502022438F00C2AC62 /* DataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
 		72CB25532022438F00C2AC62 /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
 		72CB255B2022444400C2AC62 /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
@@ -135,6 +138,8 @@
 			children = (
 				72615806202B7E3700B97E1A /* Node.hpp */,
 				7238FFF6202CD39D0004E333 /* LinearNode.cpp */,
+				72C479B6208E50FC003204B5 /* N_AryTreeNode.cpp */,
+				72C479B7208E50FC003204B5 /* N_AryTreeNode.hpp */,
 				722239492044913400916090 /* DoubleNode.hpp */,
 				72493748206AC5120088EAF9 /* BinaryTreeNode.hpp */,
 			);
@@ -292,6 +297,7 @@
 				72F93E2A20866B6000B1ACCA /* AVLTree.cpp in Sources */,
 				7249374C206ACA3F0088EAF9 /* BinaryTreeTester.cpp in Sources */,
 				72D0C03C204DC6610014DDD1 /* RecursionTester.cpp in Sources */,
+				72C479B8208E50FC003204B5 /* N_AryTreeNode.cpp in Sources */,
 				72CB256920225DFF00C2AC62 /* CrimeData.cpp in Sources */,
 				7202CCA4203609DA002623EB /* LinkedList.hpp in Sources */,
 				72CB25542022438F00C2AC62 /* Runner.cpp in Sources */,
