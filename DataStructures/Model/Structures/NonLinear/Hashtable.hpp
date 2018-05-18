@@ -2,14 +2,14 @@
 //  Hashtable.hpp
 //  DataStructures
 //
-//  Created by Amaya Penunuri, Yael on 4/27/18.
+//  Created by Amaya Penunuri, Yael on 5/7/18.
 //  Copyright © 2018 Amaya Penunuri, Yael. All rights reserved.
 //
 
 #ifndef Hashtable_hpp
 #define Hashtable_hpp
 
-#include "../Nodes/HashNode.hpp"
+#include "../../Nodes/HashNode.hpp"
 
 template <class Type>
 class Hashtable
@@ -136,7 +136,7 @@ void Hashtable<Type> :: insert(Type value)
         resize();
     }
     
-    HashNode<Type> * temp = new HashNOde<Type>(value);
+    HashNode<Type> * temp = new HashNode<Type>(value);
     long index = findPosition(temp);
     
     if(internalStorage[index] == nullptr)

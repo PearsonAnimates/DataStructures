@@ -10,6 +10,10 @@
 #define HashNode_hpp
 
 #include "Node.hpp"
+
+
+using namespace std;
+
 template <class Type>
 class HashNode : public Node<Type>
 {
