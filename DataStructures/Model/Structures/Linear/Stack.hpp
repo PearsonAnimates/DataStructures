@@ -64,6 +64,12 @@ void Stack<Type> :: push(Type data)
 }
 
 template <class Type>
+void Stack<Type> :: add(Type data)
+{
+    push(data);
+}
+
+template <class Type>
 void Stack<Type> :: addAtIndex(int index, Type data)
 {
     assert(index == 0);
@@ -73,8 +79,8 @@ void Stack<Type> :: addAtIndex(int index, Type data)
 template <class Type>
 Type Stack<Type> :: pop()
 {
-    assert (this->size 0);
-    Type rmoved = this->front->getData();
+    assert (this->size == 0);
+    Type removed = this->front->getData();
     
     LinearNode<Type> * removedNode = this->getFront();
     this->front = removedNode->getNextNode();
