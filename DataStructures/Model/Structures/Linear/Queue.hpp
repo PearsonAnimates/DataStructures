@@ -17,6 +17,7 @@ using namespace std;
 template <class Type>
 class Queue : public LinkedList<Type>
 {
+public:
     Queue();
     ~Queue();
     
