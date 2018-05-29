@@ -14,8 +14,10 @@ void Controller :: start()
 {
 //    RecursionTester test;
 //    test.testRecursionString();
-    GraphTester test;
-    test.testGraphs();
+//    GraphTester test;
+//    test.testGraphs();
+    BinaryTreeTester test;
+    test.doTreeStuff();
 }
 
 void Controller :: findMaxAndMin()
