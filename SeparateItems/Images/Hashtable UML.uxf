@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>32</x>
+      <y>184</y>
+      <w>392</w>
+      <h>256</h>
+    </coordinates>
+    <panel_attributes>HashTable&lt;Type&gt;
+--
+
+- internalStorage : HashNode&lt;Type&gt; **
+# size : long
+# capacity: long
+# loadFactor : double
+
+# getNextPrime : long
+# isPrime(long current) : bool
+# resize : void
+# findPosition(HasNode&lt;Type&gt; * insertedNode) : long
+#handleCollision(HashNode&lt;Type&gt; * insertedNode, long index) : long
+
+--
+
++Hashtable() : constructor
++~Hashtable() : destructor
+
++ insert (Type data) : void
++ getSize() : long
+
+bg=cyan</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>112</x>
+      <y>560</y>
+      <w>256</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>Node&lt;Type&gt;
+--
+#data : Type
+--
++Node() : constructor
++Node(Type data) : constructor
++getData() : Type
++setData(Type data) : void
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>552</x>
+      <y>256</y>
+      <w>208</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>HashNode&lt;Type&gt;
+--
+#key : long
+--
++HashNode() : constructor
++HashNode(Type data) : constructor
+
++getKey() const : long
+bg=light_gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>360</x>
+      <y>336</y>
+      <w>328</w>
+      <h>328</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+</panel_attributes>
+    <additional_attributes>10.0;390.0;390.0;390.0;390.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>624</x>
+      <y>624</y>
+      <w>80</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>public
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>416</x>
+      <y>272</y>
+      <w>152</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;170.0;10.0</additional_attributes>
+  </element>
+</diagram>
